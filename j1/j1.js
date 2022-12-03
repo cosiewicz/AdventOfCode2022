@@ -1,6 +1,6 @@
 let res = 0;
 let best = [-1, -1, -1];
-require('fs').readFileSync('file_j1.txt', 'utf-8').split(/\r?\n/).forEach(function (line) {
+require('fs').readFileSync('file.txt', 'utf-8').split(/\r?\n/).forEach(function (line) {
     const value = parseInt(line);
     if (value) {
         res = res + value;
